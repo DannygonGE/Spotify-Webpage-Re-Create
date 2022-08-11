@@ -1,0 +1,153 @@
+@import url(/css/font.css);
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --green: #4bd37a;
+    --blue:  rgb(29, 117, 222);
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--black);
+    padding: 1rem 0;
+}
+
+header .main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.main-menu img {
+    width: 8.5rem;
+    height: 2.5rem;
+}
+
+header .main-menu .navbar ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+header .main-menu .navbar ul li {
+    font-family: "Spotify cirular";
+    font-size: 15px;
+    color: var(--white);
+    list-style: none;
+}
+
+header .main-menu .navbar ul li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+header .main-menu .navbar ul .line{
+    border: 0.5px solid white;
+}
+
+header .main-menu .navbar ul li a:hover {
+    color: var(--green);
+}
+
+.Offer {
+    background-color: var(--blue);
+    width: 100%;
+    height: 23rem;
+
+}
+
+.info {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.info h1 {
+    font-family:"Spotify cirular";
+    color: var(--white);
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+
+.info p {
+    font-family: "Spotify circular II";
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.info .version {
+    font-size: 2rem;
+}
+
+.info .Terms-Conditions{
+    line-height: 8rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Beneficios h1 {
+    font-family: "Spotify cirular";
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.Beneficios ul {
+    display: flex;
+    gap: 18rem;
+    width: 80%;
+    margin: auto;
+
+}
+
+.Beneficios ul li {
+    list-style: none;
+}
+
+.Beneficios ul li img {
+    width: 11rem;
+}
+
+.Beneficios ul li {
+    font-family: "Spotify cirular";
+    text-align: center;
+}
+
+/*-- Media Queries --*/
+
+@media screen and (max-width:1300px) {
+
+    .Offer .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .Offer .info p {
+        font-size: 1.5rem;
+    }
+    .Beneficios h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 2.3rem;
+    }
+    .Beneficios ul {
+        display: flex;
+        gap: 100px;
+    }
+    .Beneficios ul li img {
+        width: 100px;
+    }
+}

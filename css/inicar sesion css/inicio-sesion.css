@@ -1,0 +1,191 @@
+@import url(/css/font.css);
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --green: #4bd37a;
+    --greenvideo: #b6ffd0;
+    --blue:  rgb(29, 117, 222);
+    --gray: #808080;
+    --facebook:#4267B2;
+
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.into {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(var(--white)) 
+}
+
+.video {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--greenvideo);
+    z-index: 1;
+    opacity: 0.40;
+}
+
+.navbar-img {
+    background-color: var(--green);
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.sesion {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio-sesion {
+    background-color: var(--white);
+    padding: 40px 0;
+    margin: 150px;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.80;
+}
+
+.continuar-con {
+    font-family: "Spotify cirular";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.continuar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button {
+    font-family:"Spotify cirular";
+    color: var(--white);
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.facebook {
+    background-color: var(--facebook);
+    border: none;
+}
+
+.apple {
+    background-color: var(--black);
+    border: none;
+}
+
+.google {
+    background-color: var(--white);
+    color: var(--gray);
+    border: solid 1px;
+}
+
+.telefono {
+    background-color: var(--white);
+    color: var(--gray);
+    border: solid 1px;
+}
+
+.o {
+    padding: 12px 0;
+}
+
+.correo {
+    display: flex;
+    flex-direction: column;
+}
+
+.user input{
+    color: var(--gray);
+    
+}
+
+.usuario {
+    width: 400px;
+    height: 43px;
+    margin-bottom: 10px;
+    border-radius: 3px solid 1px;
+}
+
+.contraseña {
+    width: 400px;
+    height: 43px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px solid 1px;
+}
+
+.password input {
+    color: gray;
+}
+
+.final {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.final .Recordarme input {
+    background-color: var(--green);
+}
+
+.iniciar-sesion .button-iniciar {
+    width: 180px;
+    height: 42px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--green);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.user p {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.pass p {
+    text-align: left;
+    margin-left: 50px;
+}
