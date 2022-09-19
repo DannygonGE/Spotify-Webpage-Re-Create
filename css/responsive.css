@@ -1,0 +1,32 @@
+@media screen and (max-width: 920px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .Beneficios h1 {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    .Beneficios ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Beneficios ul li img {
+        width: 180px;
+    }
+
+    .Beneficios ul li p {
+        margin-top: 7px;
+    }
+}
+
+@media(max-width: 670px){
+
+    .info p {
+        display: none;
+    }
+}

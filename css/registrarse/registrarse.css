@@ -1,0 +1,63 @@
+@import url(/css/font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --green: #4bd37a;
+    --greenvideo: #b6ffd0;
+    --blue:  rgb(29, 117, 222);
+    --gray: #808080;
+    --facebook:#4267B2;
+
+    font-size: 16px;
+}
+
+body {
+    font-family: "Spotify circular II";
+}
+
+
+.content {
+    text-align: center;
+    padding: 40px 0 ;
+}
+
+.content img {
+    width: 100px;
+}
+
+.content h1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+form div p {
+    font-size: 20px;
+}
+
+form div {
+    margin-top: 60px;
+}
+
+form div input {
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px bold none;
+}
+
+form .button {
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    background-color: var(--green);
+}
